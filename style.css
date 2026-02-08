@@ -1,0 +1,91 @@
+body {
+    background: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+.browser {
+    width: 900px;
+    margin: 40px auto;
+    border: 1px solid #ccc;
+    background: white;
+}
+
+.browser-bar {
+    background: #e6e6e6;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+
+.red { background: #ff5f57; }
+.yellow { background: #ffbd2e; }
+.green { background: #28c840; }
+
+.url {
+    margin-left: 20px;
+    font-size: 14px;
+    color: #333;
+}
+
+.header {
+    background: #1e1e9c;
+    color: white;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.content {
+    text-align: center;
+    padding: 40px;
+}
+
+.bank-icon {
+    font-size: 50px;
+}
+
+.legit {
+    color: green;
+    font-size: 14px;
+}
+
+.login-box {
+    width: 350px;
+    margin: 20px auto;
+    background: #e6e6e6;
+    padding: 20px;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 10px;
+    background: #1e1e9c;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+
+.links {
+    margin-top: 10px;
+    font-size: 13px;
+}
