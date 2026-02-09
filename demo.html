@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Secure Bank – Phishing Demo</title>
+
+  <!-- DIFFERENCE 1: HTTP + Fake / Phishing site -->
+  <!-- This page is ONLY for EDUCATIONAL purpose -->
+
+  <style>
+    body { font-family: Arial; background:#f4f4f4; }
+    .box { width:400px; margin:80px auto; background:white; padding:20px; }
+    .header { background:#0d47a1; color:white; padding:10px; }
+    .warning { background:red; color:white; padding:8px; font-size:13px; }
+    input, button { width:100%; padding:10px; margin:8px 0; }
+    button { background:#0d47a1; color:white; border:none; }
+  </style>
+</head>
+
+<body>
+
+  <div class="box">
+    <div class="header">🔓 Secure Bank</div>
+
+    <h3>Welcome to Secure Bank Online</h3>
+
+    <!-- DIFFERENCE 2: No HTTPS + misleading design -->
+    <input type="text" placeholder="Email / User ID">
+    <input type="password" placeholder="Password">
+
+    <!-- DIFFERENCE 3: Login button but no real action -->
+    <button type="button">Login</button>
+
+    <p><a href="#">Forgot password</a> | <a href="#">Need help?</a></p>
+
+    <!-- DIFFERENCE 4: Explicit phishing disclaimer -->
+    <div class="warning">
+      This is a demo phishing page for educational purpose only.
+    </div>
+  </div>
+
+</body>
+</html>
